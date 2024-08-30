@@ -1,0 +1,3 @@
+30/08/2024...........
+adding names at the bottom of the images(by adding an new div tag to each image and its name)]
+ctrl+f (which is used for replasing the tags or names to another in the vs code file)
