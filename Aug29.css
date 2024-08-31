@@ -1,5 +1,5 @@
 *{
-    background-color: #222;
+    background-color: #000;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -20,8 +20,8 @@ section{
 .posters{
 display: flex;
 overflow-y: hidden;
-overflow-x: scroll;
-margin: 3% 1%;
+overflow-x: scroll; 
+margin: 2% 1%;
 }
 .posters::-webkit-scrollbar{
     display: none;
@@ -31,21 +31,12 @@ margin: 3% 1%;
    border-radius:1px;
 }
 .heading{
-    /* margin: -30px 20px;
-    padding: 10px 0px;
-    height: 10px; */
     margin: 1% 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: large;
-    
 }
-h2{
-    height: 10px;
-    margin: 10px 20px;
-    padding: 20px 10px;
-}
-h2{
+h3{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
@@ -55,4 +46,33 @@ h2{
 .card{
     margin: 0px 5px;
     
+}
+footer{
+    padding: 5%;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 10px 0;
+    color:#999;
+}
+.row{
+    display: flex;
+}
+.col{
+     padding: 23px 30px;
+     list-style: none;  
+     margin-right: 40px;
+     padding-left: 0;
+}
+li{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+li a{
+    color:#999;
 }
