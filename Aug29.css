@@ -1,0 +1,78 @@
+*{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19&quot);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    max-width: 100%;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.posters{
+display: flex;
+overflow-y: hidden;
+overflow-x: scroll; 
+margin: 2% 1%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+   margin: 0.5%;
+   border-radius:1px;
+}
+.heading{
+    margin: 1% 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: large;
+}
+h3{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 5px 0px;
+}
+.card{
+    margin: 0px 5px;
+    
+}
+footer{
+    padding: 5%;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 10px 0;
+    color:#999;
+}
+.row{
+    display: flex;
+}
+.col{
+     padding: 23px 30px;
+     list-style: none;  
+     margin-right: 40px;
+     padding-left: 0;
+}
+li{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+li a{
+    color:#999;
+}
