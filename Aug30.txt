@@ -1,3 +1,13 @@
 30/08/2024...........
+<<<<<<< HEAD
+**adding names at the bottom of the images(by adding an new div tag to each image and its name)]
+**ctrl+f (which is used for replasing the tags or names to another in the vs code file)
+** differrnce between Class and Id      
+id can only use at only one name
+but class have multiple class names
+**<footer>(used for adding footer)
+
+=======
 adding names at the bottom of the images(by adding an new div tag to each image and its name)]
 ctrl+f (which is used for replasing the tags or names to another in the vs code file)
+>>>>>>> c57bb4c5fd467c28634403019c77ad0889999826

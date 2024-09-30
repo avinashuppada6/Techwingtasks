@@ -1,0 +1,10 @@
+29/08/2024:
+
+background color : black;
+boxsizing : borderbox (it will adjust the background suitable for the website adjustments)
+
+**console image responsiveness 
+* downloading background images from website(::after)
+* display:flex(adding images in horizontal order)
+*img.poster*12(it will create 12 img with poster classs)
+*overflow-x:scroll(it will scroll the posteres horizontally)

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color:#fff;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 12%;
+    padding: 10px 0 0 15px ;
+}
+nav{
+    background-color: #000;
+    display: flex;
+}
+nav .actions {
+    display: flex;
+    margin: 10px 0px;
+    padding: 8px 4px;
+}
+nav .actions button{
+background-color: red;
+color: #fff;
+height: 30px;
+width: 130px;
+border: none;
+border-radius: 1px;
+font-size: 15px;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+}
+nav .actions .login{
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin: 0px 20px;
+   height: 30px;
+   width: 100px;
+}
+nav .name{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+}
+.banner{
+background:linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19&quot");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 100vh;
+}
+.banner-title img{
+    object-fit: contain;
+    max-width: 40%;
+}
+.banner-content{
+    padding: 10% 8%;
+}
+.banner-title h1{
+    font-size: 140%;
+    padding: 45px 0 30px 0;
+}
+.banner-title h3{
+    color: #a3a3a3;
+    font-size: 1.2rem;
+}
+.banner-title .box{
+    padding: 2px 4px;
+    border: 1px solid #a3a3a3;
+    border-radius: 3px;
+}
+.banner-title p{
+    max-width: 45%;
+    padding: 10px 0;
+}
+.banner-title .box1{
+    color: #fff;
+    padding: 15px 0 15px 0;
+}
+
