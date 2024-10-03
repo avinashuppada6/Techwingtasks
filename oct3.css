@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heart{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(-45deg);
+    position: relative;
+    /* box-shadow: -10px 20px 90px rgb(0, 0, 0); */
+    animation: heart 3s infinite;
+    left: 27%;
+    z-index: 2;
+}
+.heart::before{
+        height: 70px;
+        width: 70px;
+        background-color: #000000;
+        top: -50%;
+        position: absolute;
+        border-radius: 50px;
+        content: " ";
+}
+.heart::after{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 50px;
+    right: -50%;
+    content: "";
+}
+@keyframes heart {
+    0%{
+        transform: rotate(-45deg) scale(1.09); 
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0); 
+
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.02); 
+
+    }
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    left: 13%;
+    border-radius: 50%;
+    animation: black1 s linear;
+    border: 2px solid #000000 ;
+    z-index: 1;
+    position: relative;
+}
+@keyframes black1 {
+    from{
+         transform: rotate(0);    
+        }
+    to{
+        transform: rotate(0);
+        background-color: #000000;
+    }
+    
+}
+.rect{
+    height: 400px;
+    width: 400px;
+    background-color: #000000;
+    animation: square 0.5s infinite ;
+    right: 15%;
+    position: relative;
+
+}
+@keyframes square{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(0);
+        background-color: #55ff00;
+    }
+}
+@media (max-width:768px) {
+    .circle {
+        height: 200px;
+        width: 379px;
+        background-color: aqua;
+        left: 20%;
+        border-radius: 50%;
+        animation: black1 s linear;
+        border: 2px solid #000000;
+        z-index: 1;
+        position: relative;
+    }
+}
