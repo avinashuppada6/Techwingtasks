@@ -29,15 +29,15 @@
 }
 .banner1 button{
     padding: 10px 25px;
-    color: #ffffffd8;
-    background-color: rgba(0, 140, 255, 0.793);;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.272);
     margin-top:2%;
     left: 87%;
     position: absolute;
     border-radius: 2px;
     border: none;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 15px;
     transition: transform 0.4sec ease;
     font-family: sans-serif;
     font-weight: bold;
