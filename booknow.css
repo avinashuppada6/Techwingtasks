@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container2 img{
+    overflow: hidden;
+    height: 334px;
+    width: 100%;
+}
