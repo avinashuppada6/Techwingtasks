@@ -5,6 +5,7 @@
 }
 body{
     color: #b3b3b3d4;
+    background-color: #f2f2f2;
 }
 nav{
     background-color: #222;
@@ -42,7 +43,7 @@ a{
 }
 .form-wrapper{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 30%;
     display: inline-block;
 }
@@ -67,109 +68,6 @@ a{
 button:hover{
     background-color: #e2e2e2;
 }
-/* .back2 h2{
-    color: #000000;
-    font-size: 35px;
-    font-weight: bold;
-    font-family: sans-serif;
-    position: absolute;
-    left:2%;
-    padding-top: 20px;
-}
-.back1{
-    background-color: #ffffff ;
-    margin-top: 50px;
-    position: relative;
-    display: block;
-    height: auto;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
-    min-height: 500px;
-    left: 1%;
-    border-radius: 10px;
-    right: 1%;
-    overflow: hidden;
-}
-.back3{
-     display: block;
-     position: absolute;
-     color: #000000;
-     background-color: #fff;
-     left: 2%;
-     margin-top: 80px;
-     font-family: sans-serif;
-     padding: 10px 15px 10px 10px;
-     border-radius: 10px;
-     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
-     flex-shrink: 0;
-}
- .leftimg{
-    float: left;
-    height: 90px;
-    width: 90px;
-    border-radius:5px;
-}
-.back31{
-    padding-left: 100px;
-    background-color: #fff;
-}
-.back31 .h1{
-    font-size: 14px;
-}
-.back31 .h2{
-    font-size:14px;
-}
-.back31 .p3{
-    font-size: 13px;
-    color:#444;
-    margin-top: 9px;
-}
-.back32{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    background-color: #fff;
-}
-.back32 .p1{
-    font-size: 11px;
-    color:#444;
-    font-weight: bold;
-}
-.back32 .p2{
-    font-size: 11px;
-    color:#444;
-}
-.back3 a{
-    color: rgb(1, 154, 255);
-    font-size:10px;
-    float: inline-end;
-    padding-top: 20px;
-    font-weight: bold;
-}
-.back1{
-    display:flex;
-    overflow: hidden;
-    justify-content: space-between;
-}
-.block{
-        display:flex;
-        overflow: hidden;
-        justify-content: space-between;
-}
-.back3 .back4{
-     left: 140%;
-     position: absolute;
-     color: #000000;
-     background-color: #fff;
-     top: 0%;
-     font-family: sans-serif;
-     padding: 10px 25px 10px 10px;
-     border-radius: 10px;
-     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
-     flex-shrink: 0;
-}
-.back3:last-child{
-    margin-right:0;
-} */
 
 .main2
 {
@@ -179,7 +77,17 @@ button:hover{
     position: relative;
     flex-direction: row;
     margin-top: 40px;
-    gap: 3x0px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 1%;
+    margin-top: 40px;
+    overflow-x: scroll;
+    padding-bottom: 2%;
+}
+.main2::-webkit-scrollbar{
+    display: none;
 }
 .d1{
     display:flex;
@@ -198,38 +106,38 @@ button:hover{
 }
 .p3{
     color: #444;
-    font-size: 135x;
+    font-size: 20px;
     letter-spacing: 0.5px;
-    margin-top: 13px;
+    margin-top: 12px;
 }
 .hl3{
     margin-top: 13px;
-    font-size: 22px;
+    font-size: 100px;
 }
 .main3 img{
-    height: 110px;
-    width: 110px;
+    height: 120px;
+    width: 120px;
     border-radius: 3px;
     left: 2%;
     position: absolute;
 }
 .main4 img{
-    height: 110px;
-    width: 110px;
+    height: 120px;
+    width: 120px;
     border-radius: 3px;
     left: 2%;
     position: absolute;
 }
 .main3 h3{
     color: #000000;
-    font-size: 20px;
+    font-size: 27px;
     font-weight: bold;
     font-family: sans-serif;
     letter-spacing: 1px;
 }
 .main4 h3 {
     color: #000000;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     font-family: sans-serif;
     letter-spacing: 1px;
@@ -238,41 +146,231 @@ button:hover{
     border-radius: 10px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
     position: relative;
-    margin-left: 40px;
-    padding:  15px 440px 150px 15px;
- 
+    margin-left: 3%;
+    padding:  2% 42% 14% 2%;
+    margin-top: 6%;
 }
 .main3{
     border-radius: 10px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
     position: relative;
-    margin-left: 30px;
-    padding:  15px 440px 150px 15px;
- 
+    margin-left: 2%;
+    padding:  2% 42% 14% 2%;
+    margin-top: 6%;
 }
 .main3-1{
     position: absolute;
-    padding-left: 120px;
+    padding-left: 22%;
 }
-.p4{
+.main3 .p4{
    color: #2d8cff;
    font-weight: bold;
    font-family: sans-serif;
-   font-size: 13px;
-   margin-top: 14px;
-   margin-left: 230px;
+   font-size: 17px;
+   margin-top: 22px;
+   margin-left: 72%;
+   cursor: pointer;
 }
 .main4 .p4{
     color: #2d8cff;
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 13px;
-    margin-top: 14px;
-    margin-left: 230px;
+    font-size: 17px;
+    margin-top: 22px;
+    margin-left: 72%;
+    cursor: pointer;
 }
 .main4 .p3{
     color: #444;
-    font-size: 135x;
+    font-size: 20px;
     letter-spacing: 0.5px;
+    margin-top: 12%;
+}
+.main4 .p3{
+    color: #444;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-top: 12%;
+}
+.offers{
+    font-size: 30px;
+    left: 4%;
+    color: #000000;
+    position: relative;    
+    display: block; 
+    align-self: flex-start;
+    top: 6%;
+    position: absolute;
+    margin-bottom: 30px;
+}
+.main5{
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-left: 3%;
+    padding:  2% 42% 14% 2%;
+    margin-top: 6%;
+    margin-right: 2%;
+}
+.main5 h3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.main5 .p3{
+    color: #444;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 7%;
+}
+.main5 .p4{
+    color: #2d8cff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 72%;
+    cursor: pointer;
+}
+.main5 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 3px;
+    left: 2%;
+    position: absolute;
+}
+.main5 .main3-1{
+    margin-left: 8px;
+}
+.main6{
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-left:2%;
+    padding:  2% 42% 14% 2%;
+    margin-top: 6%;
+    margin-right: 3%;
+}
+.main6 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 3px;
+    left: 2%;
+    position: absolute;
+}
+.main6 .p4{
+    color: #2d8cff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 21px;
+    margin-left: 70%;
+    cursor: pointer;
+}
+.main6 .p3{
+    color: #444;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 14%;
+}
+.main6 h3{
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.pdt1{
+    color:  #111;
+    font-family: sans-serif;
+    margin: 10px 25px ;
+    letter-spacing: 0.5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    font-size: 12px;
+}
+.pdt1 h3{
+    color: #000000;
+    font-weight: bold;
+    margin: 10px 10px 10px 2px;
+}
+.pdt2{
+    color:  #555;
+    font-family: sans-serif;
+    margin: 10px 25px ;
+    letter-spacing: 0.5px;
+    padding: 10px 10px 5px 10px;
+    background-color:transparent;
+    font-size: 12px;
+}
+.pdt2 h3{
+    color: #000000;
+    font-weight: bold;
+    margin: 10px 10px 10px 2px;
+}
+.s1
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000
+}
+.pdt3{
+    color:  #555;
+    font-family: sans-serif;
+    margin: 10px 25px ;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 12px;
+}
+.pdt3 h3{
+    color: #000000;
+    font-weight: bold;
+    margin: 10px 10px 10px 2px;
+}
+.bot{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    font-family: sans-serif;
+    background-color: #d8d8d8b3;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 12px;
+}
+.pdt{
+    background-color: #f2f2f2;
+    padding: 10px;
+    position: relative;
+}
+.bot1,
+.bot2,
+.bot3{
+    color: #555;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30PX;
+    letter-spacing: 0.5px;
+}
+.bot1 h3,
+.bot2 h3,
+.bot3 h3{
+    color: #000000;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+}
+.bot1 p,
+.bot2 p,
+.bot3 p {
     margin-top: 40px;
+    padding: 0;
+    margin-left: 0;
+    line-height: 1.3;
+    width: 100%;
 }
